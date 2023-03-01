@@ -21,8 +21,8 @@ constraints              = all-bonds
 
 
 integrator               = steep           
-dt                       = 0.001
-nsteps                   = 1000           
+dt                       = 0.002
+nsteps                   = -1          
 
 ;;;;;;;;;; minimization
 
@@ -56,6 +56,6 @@ annealing-time           =                 ; es. 50 100 150 50 100 150
 annealing-temp           =                 ; es. 300 400 500 300 400 500
 
 ; GENERATE VELOCITIES FOR STARTUP RUN
-gen-vel                  = no. ; or yes
+gen-vel                  = no
 gen-temp                 = 300
 gen-seed                 = -1
