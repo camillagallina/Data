@@ -31,11 +31,11 @@ emstep                   = 0.01
 
 
 ;;;;;;;;;;;; OUTPUT CONTROL OPTIONS
-nstxout                  = 10
-nstvout                  = 0
-nstlog                   = 10
-nstcalcenergy            = 10
-nstenergy                = 10
+nstxout                  = 5
+nstvout                  = 5
+nstlog                   = 5
+nstcalcenergy            = 5
+nstenergy                = 5
 energygrps               = 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;, Temperature coupling  
