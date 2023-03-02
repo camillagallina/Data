@@ -44,6 +44,13 @@ tc-grps                  = Water non-Water
 tau-t                    = 0.1 0.1
 ref-t                    = 300 300
 
+Pcoupl                   = berendsen
+Pcoupltype               = isotropic
+nstpcouple               = -1
+tau_p                    = 1.0
+compressibility          = 4.5e-5
+ref_p                    = 1.0
+refcoord_scaling         = com
 
 ; SIMULATED ANNEALING  
 ; Type of annealing for each temperature group (no/single/periodic)
