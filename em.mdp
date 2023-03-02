@@ -21,7 +21,7 @@ constraints              = all-bonds
 
 
 integrator               = steep           
-dt                       = 0.001
+dt                       = 0.002
 nsteps                   = -1          
 
 ;;;;;;;;;; minimization
@@ -31,11 +31,11 @@ emstep                   = 0.01
 
 
 ;;;;;;;;;;;; OUTPUT CONTROL OPTIONS
-nstxout                  = 5
-nstvout                  = 5
-nstlog                   = 5
-nstcalcenergy            = 5
-nstenergy                = 5
+nstxout                  = 100
+nstvout                  = 100
+nstlog                   = 1000
+nstcalcenergy            = 100
+nstenergy                = 1000
 energygrps               = 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;, Temperature coupling  
@@ -56,6 +56,6 @@ annealing-time           =                 ; es. 50 100 150 50 100 150
 annealing-temp           =                 ; es. 300 400 500 300 400 500
 
 ; GENERATE VELOCITIES FOR STARTUP RUN
-gen-vel                  = no
+gen-vel                  = no  ;yes
 gen-temp                 = 300
 gen-seed                 = -1
