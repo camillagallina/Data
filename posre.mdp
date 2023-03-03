@@ -1,6 +1,6 @@
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; never touch this part
-define                   = 
+define                   = -DPOSRES
 comm-mode                = ANGULAR           ;
 nstcomm                  = 100
 cutoff-scheme            = Verlet
@@ -21,8 +21,8 @@ constraints              = all-bonds
 
 
 integrator               = md          
-dt                       = 0.001
-nsteps                   = 20000         
+dt                       = 0.002
+nsteps                   = 100000    
 
 ;;;;;;;;;; minimization
 
