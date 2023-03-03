@@ -7,9 +7,9 @@ ns-type                  = Grid
 pbc                      = xyz
 nstlist                  = 10
 rlist                    = 1
-coulombtype              = pme
+coulombtype              = Cut-off
 rcoulomb                 = 1
-vdw-type                 = pme
+vdw-type                 = Cut-off
 rvdw                     = 1
 constraints              = none
 
