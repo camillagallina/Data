@@ -21,7 +21,7 @@ constraints              = none
 
 integrator               = l-bfgs        
 dt                       = 0.002
-nsteps                   = -1          
+nsteps                   = 1000         
 
 ;;;;;;;;;; minimization
 
