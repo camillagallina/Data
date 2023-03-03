@@ -9,7 +9,7 @@ nstlist                  = 10
 rlist                    = 1
 coulombtype              = pme
 rcoulomb                 = 1
-vdw-type                 = Cut-off
+vdw-type                 = pme
 rvdw                     = 1
 constraints              = none
 
