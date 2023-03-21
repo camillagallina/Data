@@ -20,9 +20,9 @@ constraints              = all-bonds
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;, part to be updated by users
 
 
-integrator               = steep    ; md          
+integrator               = md    ; md          
 dt                       = 0.002
-nsteps                   = -1            
+nsteps                   = 500000           
 
 ;;;;;;;;;; minimization
 
@@ -31,15 +31,15 @@ emstep                   = 0.01
 
 
 ;;;;;;;;;;;; OUTPUT CONTROL OPTIONS
-nstxout                  = 100
-nstvout                  = 100
-nstlog                   = 1000
-nstcalcenergy            = 100
-nstenergy                = 1000
+nstxout                  = 10
+nstvout                  = 10
+nstlog                   = 10
+nstcalcenergy            = 10
+nstenergy                = 10
 energygrps               = 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;, Temperature coupling  
-tcoupl                   = No
+tcoupl                   = v-rescale
 tc-grps                  = Water non-water
 tau-t                    = 0.1 0.1
 ref-t                    = 300 300
