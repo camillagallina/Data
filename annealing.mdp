@@ -56,7 +56,7 @@ annealing-time           = 0 50 70 150 151 300 330 400 405 600 0 50 70 150 151 3
 annealing-temp           = 300 300 500 500 1100 1100 10 10 300 300 300 300 500 500 1100 1100 10 10 300 300                
 
 ; GENERATE VELOCITIES FOR STARTUP RUN
-gen-vel                  = no. ; or yes
+gen-vel                  = no ; or yes
 gen-temp                 = 300
 gen-seed                 = -1
 
