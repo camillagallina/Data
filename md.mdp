@@ -39,7 +39,7 @@ nstenergy                = 1000
 energygrps               = 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;, Temperature coupling  
-tcoupl                   = no
+tcoupl                   = v-rescale
 tc-grps                  = Water non-Water
 tau-t                    = 0.1 0.1
 ref-t                    = 300 300
